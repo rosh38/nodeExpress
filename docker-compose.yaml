@@ -7,8 +7,8 @@ services:
       dockerfile: Dockerfile
     container_name: demo_node_express
     ports:
-      - "3000"
+      - "3011"
     environment:
       - NODE_ENV=production
-      - PORT=3000
+      - PORT=3011
     restart: unless-stopped
